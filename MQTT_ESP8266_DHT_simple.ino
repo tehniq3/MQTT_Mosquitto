@@ -67,7 +67,7 @@ void callback(char* topic, byte* payload, unsigned int length)
     Serial.println(" temperature!] ");
    Serial.print(" Temp is: " );
    Serial.print(dht.readTemperature());
-   Serial.println(' C');
+   Serial.println(" C");
   }
   Serial.println();
 } //end callback
