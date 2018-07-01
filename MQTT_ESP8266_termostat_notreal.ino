@@ -1,8 +1,7 @@
 /* 
- * Use NodeMCU to drive DHT11 and send temperature/humidity value to MQTT server
- * Tutorial URL http://osoyoo.com/2016/11/24/use-nodemcu-to-send-temperaturehumidity-data-to-mqtt-iot-broker/
- * CopyRight John Yu
- * change by Nicu FLORICA (niq_ro) to made DHT22 thermostat
+ * based on material from http://osoyoo.com/2016/11/24/use-nodemcu-to-send-temperaturehumidity-data-to-mqtt-iot-broker/ (CopyRight John Yu)
+ * MQTT Thermostat using Mosquitto server 
+ * writted by Nicu FLORICA (niq_ro) to made DHT22 thermostat
  */
 
 #include "EEPROM.h" - https://circuits4you.com/2016/12/16/esp8266-internal-eeprom-arduino/
