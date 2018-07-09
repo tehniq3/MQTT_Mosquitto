@@ -15,8 +15,8 @@ DHT dht(DHTPIN, DHTTYPE, 11); // 11 works fine for ESP8266
 // Update these with values suitable for your network.
 const char* ssid = "yourssid";
 const char* password = "yourpassword";
-//const char* mqtt_server = "192.168.1.105"; // local server
-const char* mqtt_server = "tehniq.go.ro";
+const char* mqtt_server = "192.168.1.105"; // local server
+//const char* mqtt_server = "tehniq.go.ro";
 //const char* mqtt_server = "broker.mqtt-dashboard.com";
 //const char* mqtt_server = "iot.eclipse.org";
 
@@ -160,8 +160,8 @@ msg= msg+ dtemp;
      msg.toCharArray(message,80);
      Serial.println(message);
      //publish sensor data to MQTT broker   
- client.publish("ha/_temperature1", String(rtemp).c_str());
- client.publish("ha/_temperature2", String(dtemp).c_str());
- client.publish("ha/_temperature3", String(incalzire).c_str());
+ client.publish("hb/_temperature1", String(rtemp).c_str());
+ client.publish("hb/_temperature2", String(dtemp).c_str());
+ client.publish("hb/_temperature3", String(incalzire).c_str());
   }
 }
