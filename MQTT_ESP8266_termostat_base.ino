@@ -25,8 +25,8 @@ SSD1306  display(0x3c, 0, 2);
 const char* ssid = "your ssif";
 const char* password = "your password";
 //const char* mqtt_server = "0.0.0.0";
-//const char* mqtt_server = "192.168.1.105";  // local server 
-const char* mqtt_server = "tehniq.go.ro";  // local server 2
+const char* mqtt_server = "192.168.1.105";  // local server 
+//const char* mqtt_server = "tehniq.go.ro";  // local server 2
 //const char* mqtt_server = "broker.mqtt-dashboard.com";
 //const char* mqtt_server = "iot.eclipse.org";
 
@@ -192,9 +192,9 @@ display.clear();
   display.display();
      
      //publish sensor data to MQTT broker   
- client.publish("ha/_temperature1", String(rtemp).c_str());
- client.publish("ha/_temperature2", String(dtemp).c_str());
- client.publish("ha/_heater", String(incalzire).c_str());
- client.publish("ha/_humidity", String(rumid).c_str());
+ client.publish("hb/_temperature1", String(rtemp).c_str());
+ client.publish("hb/_temperature2", String(dtemp).c_str());
+ client.publish("hb/_heater", String(incalzire).c_str());
+ client.publish("hb/_humidity", String(rumid).c_str());
   }
 }
