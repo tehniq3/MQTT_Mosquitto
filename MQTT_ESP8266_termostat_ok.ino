@@ -25,7 +25,7 @@ SSD1306  display(0x3c, 0, 2);
 const char* ssid = "SSID";
 const char* password = "PASSQWORD";
 //const char* mqtt_server = "0.0.0.0";
-const char* mqtt_server = "192.168.1.105";  // local server (RPi IP)
+const char* mqtt_server = "192.168.2.111";  // local server (RPi IP)
 
 // https://github.com/ItKindaWorks/ESP8266/issues/9 - not used
 const char* mqtt_username = "niq_ro";
