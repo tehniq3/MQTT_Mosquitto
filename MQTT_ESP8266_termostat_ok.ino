@@ -29,7 +29,7 @@ const char* mqtt_server = "192.168.2.111";  // local server (RPi IP)
 
 // https://github.com/ItKindaWorks/ESP8266/issues/9 - not used
 const char* mqtt_username = "niq_ro";
-const char* mqtt_password = "broasca1967";
+const char* mqtt_password = "bererece";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
