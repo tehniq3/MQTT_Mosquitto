@@ -107,7 +107,7 @@ void callback(char* topic, byte* payload, unsigned int length)
    Serial.println(" gr.C");
    afisaredate();
   }
-  // if MQTT comes a 1 message, increase temperature
+  // if MQTT comes a 2 message, display value on OLED
   if(p==2)
   {
   // digitalWrite(BUILTIN_LED, HIGH);
