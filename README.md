@@ -7,6 +7,10 @@ my article with Mosquitto server on Raspberry Pi: https://nicuflorica.blogspot.c
 
 my article for MQTT DoorBell: https://nicuflorica.blogspot.com/2018/06/sonerie-cu-comanda-locala-sau-prin_10.html
 
-my article for MQTT Thermostat: https://nicuflorica.blogspot.com/2018/07/termostat-mqtt-cu-esp8266.html
+my articles for MQTT Thermostat:
+
+1) https://nicuflorica.blogspot.com/2018/07/termostat-mqtt-cu-esp8266.html
+
+2) https://nicuflorica.blogspot.com/2019/11/termostat-mqtt-cu-esp8266-2.html 
 
 ![MQTT_thermostat](https://4.bp.blogspot.com/-doNpnkKtDpI/Wz5Vlav-_DI/AAAAAAAAXfA/_49-gHH8vt04jUx6rkHW0tRgcOwjgi9NACLcBGAs/s1600/2.jpg)
